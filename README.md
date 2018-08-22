@@ -1,21 +1,29 @@
 # face_gender_age_api
 
- 36 eye_left1_average:    [11.968215785449065, 24.386355460444584]<br>
- 39 eye_left2_average:    [23.201160310189934, 25.13632733308816]<br>
- [17.5846880478, 24.7613413968]<br>
- 42 eye_right1_average:   [38.255966041661516, 25.064033870455585]<br>
- 45 eye_right2_average:   [49.38430216342588, 24.51315377633783]<br>
- [43.8201341025, 24.7885938234]<br>
- 33 nose_average:         [30.955956302111662, 39.217495061174226]<br>
- 48 mouse_left_average:   [19.145437687258177, 45.380328214621244]<br>
- 54 mouse_right_average:  [41.91912358923803, 45.60163695902764]<br>
+
+```
+requirements:
+    python2.7
+    qiniu
+    qshell
+    requests
+    caffe(GPU)
+    opencv(C++&&python)
+    jsoncpp(C++)
+```
 
 
-## new
+## jsoncpp setup
+    if you do not setup jsoncpp go setup dir and run setup.sh file
 
- left eye: [17.8448502717, 24.4715509358]<br>
- right eye: [43.7536662816, 24.3534313239]<br>
- nose: [30.8296067644, 39.2370906726]<br>
- left mouse: [19.6095211746, 45.2218299657]<br>
- right mouse: [41.6761830333, 45.3069407026]<br>
+## run: 
+    1.before you run this test.sh you need to get the ava_auth_config.json put this file into config_file dir, 
+    2.and face_attr_iter_48015.caffemodel put into example/model dir,
+    then run:
+
+    sh test.sh
+    (in the example/result dir is the result you want )
+
+
+
 

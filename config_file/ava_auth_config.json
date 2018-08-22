@@ -1,0 +1,12 @@
+{
+    "ava_auth_conf": {
+        "your_access_key": "***********",
+        "your_secret_key": "********",
+        "atlab_access_key": "***************",
+        "atlab_secret_key": "************"
+    },
+    "your_bucket_name": "************",
+    "your_bucket_url": "**********",
+    "detect_url": "*************",
+    "pose_url": "*************"
+}
